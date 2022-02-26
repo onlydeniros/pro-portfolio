@@ -21,9 +21,10 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
-    background-image: url(./images/Orange\ Mountains.jpg);
+    background-image: url(./images/navy\ teal\ moutains.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 
 }
 
@@ -43,8 +44,25 @@ header nav li a{
 }
 
 .jumbo{
-    background-image: url(./images/Orange\ Mountains.jpg);
+    background-image: url(./images/navy\ teal\ moutains.jpg);
     background-size: cover;
     background-position: center;
-    padding: 100px;
+    padding: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
 }
+
+.jumbo-container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.jumbo div h2{
+     font-size: 45px;
+     flex: 1 0 0;
+}
+
