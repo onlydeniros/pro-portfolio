@@ -1,0 +1,50 @@
+:root{
+ --primary-color:rgb(255, 95, 31);
+ --secondary-color:rgb(224, 221, 221); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--secondary-color);
+    font-family:Roboto Mono, monospace;
+    color: var(--secondary-color);
+}
+
+header{
+    /* background-color: white; */
+    padding: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    background-image: url(./images/Orange\ Mountains.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+header nav{
+    margin: 7px 0;
+}
+
+header nav li{
+    display: inline;
+    font-size: 20px;
+}
+
+header nav li a{
+    text-decoration:underline rgba(42, 39, 39, 0.164);
+    text-shadow: 3px 2px 5px black;
+    color: rgb(224, 221, 221)    
+}
+
+.jumbo{
+    background-image: url(./images/Orange\ Mountains.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+}
