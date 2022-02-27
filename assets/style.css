@@ -69,11 +69,12 @@ header nav li a{
 
 .avatar{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 35px;
     margin-bottom: 25px;
     margin-left: 100px;
+
 }
 
 .avatar img{
@@ -82,12 +83,77 @@ header nav li a{
     height: 300px;
     border-radius: 50%;
     border: 3px solid black;    
+    margin-top: 20px;
 }
 
 .avatar h2{
-    margin: 45px;
+    margin: 40px;
+    flex: 1;
+    font-size: 35px;
 }
 
-.avatar p{
-  /* checkpoint */
+
+.avatar ul{
+    position: relative;
+    margin: 15px;
+}
+
+
+.wrapper{
+    flex: 1;
+    margin-left: 35px;
+    display: inline-block;
+}
+
+hr{
+    border: 3px thin black;
+    width: 70%;
+    margin-left:200px;
+    align-self: center;
+}
+.font-title{
+    text-align: center;
+    font-size: 35px;
+    margin: 30px;
+}
+
+.flex-row{
+    display: flex;
+}
+
+#resume p{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background:url(./images/navy\ teal\ moutains.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 40px 35px;
 }
