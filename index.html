@@ -112,29 +112,17 @@
         <div>
             <h2 id="work" class="font-title">Work_</h2>
         </div>
-        <div>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aut mollitia omnis! Nulla, nihil
-                iure. Vel, atque non. A blanditiis voluptatibus officia incidunt qui quaerat doloremque recusandae unde
-                iste magni.
-                Doloribus animi laboriosam quis repudiandae doloremque iste tenetur voluptate voluptatibus. Laboriosam
-                nobis magnam placeat atque, modi doloremque harum quasi omnis inventore rerum incidunt pariatur fugit
-                vero! Et blanditiis at labore.
-                Unde fugit natus officiis velit, quam quisquam quasi at aliquam eum, sint vel ex quo nihil eveniet
-                tempore minus illo, enim id est recusandae. Amet necessitatibus quaerat sint fugiat! Distinctio!
-                Esse animi omnis repudiandae quas, distinctio voluptatem eos libero at nostrum inventore accusantium
-                commodi illum beatae enim architecto et rem voluptates vero amet dolore sapiente! Aut praesentium
-                voluptatum autem expedita?
-                Ea in temporibus dolorum ducimus ad enim similique quibusdam? Similique rerum porro vel, ad quis saepe
-                neque cumque magnam tempora incidunt sed ipsa dolor atque architecto assumenda ducimus sint facilis!
-                Reprehenderit officiis autem vitae excepturi facilis, laudantium debitis accusamus sapiente assumenda ut
-                harum ex placeat veniam minima sint aspernatur enim id, quia aliquam voluptatibus officia. Provident
-                perspiciatis expedita ex! Et!
-            </p>
-
-        </div>
+        <figure class="gallery">
+            <div class="col">
+                <img src="./assets/images/code-refac-ss.png" alt="Snow" style="width:100%">
+                <figcaption><a href="https://onlydeniros.github.io/Code-Refactor/">Code Refactor</a></figcaption>
+            </div>
+            <div class="col">
+                <img src="./assets/images/run-buddy-ss.png" alt="Forest" style="width:100%">
+                <figcaption><a href="https://onlydeniros.github.io/run-buddy/">Run Buddy</a></figcaption>
+            </div>
+        </figure>
         <hr>
-        <br>
         <br>
 
     </section>
@@ -142,33 +130,44 @@
 
     <!-- Contact Section -->
     <section>
-        <div>
-            <h2 id="contact" class="font-title">Contact_</h2>
-        </div>
-        <div>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aut mollitia omnis! Nulla, nihil
-                iure. Vel, atque non. A blanditiis voluptatibus officia incidunt qui quaerat doloremque recusandae unde
-                iste magni.
-                Doloribus animi laboriosam quis repudiandae doloremque iste tenetur voluptate voluptatibus. Laboriosam
-                nobis magnam placeat atque, modi doloremque harum quasi omnis inventore rerum incidunt pariatur fugit
-                vero! Et blanditiis at labore.
-                Unde fugit natus officiis velit, quam quisquam quasi at aliquam eum, sint vel ex quo nihil eveniet
-                tempore minus illo, enim id est recusandae. Amet necessitatibus quaerat sint fugiat! Distinctio!
-                Esse animi omnis repudiandae quas, distinctio voluptatem eos libero at nostrum inventore accusantium
-                commodi illum beatae enim architecto et rem voluptates vero amet dolore sapiente! Aut praesentium
-                voluptatum autem expedita?
-                Ea in temporibus dolorum ducimus ad enim similique quibusdam? Similique rerum porro vel, ad quis saepe
-                neque cumque magnam tempora incidunt sed ipsa dolor atque architecto assumenda ducimus sint facilis!
-                Reprehenderit officiis autem vitae excepturi facilis, laudantium debitis accusamus sapiente assumenda ut
-                harum ex placeat veniam minima sint aspernatur enim id, quia aliquam voluptatibus officia. Provident
-                perspiciatis expedita ex! Et!
-            </p>
+        <div class="contact-container">
+            <h2 id="contact" class="font-title">Let's touch bases_</h2>
+            <div class="contact-body">
 
-        </div>
-        <hr>
-        <br>
-        <br>
+                <div id="contact-form">
+                    <h3 class="contact-h3">Contact us</h3>
+
+                    <form>
+
+                        <div class="contact-form-group">
+                            <label for="name" class="con-label">Your name</label>
+                            <div class="contact-input-group">
+                                <input type="text" id="name" name="name" class="contact-form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="contact-form-group">
+                            <label for="Email" class="con-label">Your email address</label>
+                            <div class="contact-input-group">
+                                <input type="email" id="mail" name="Email" class="contact-form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="contact-form-group">
+                            <label for="Message" class="con-label">Your message</label>
+                            <div class="contact-input-group">
+                                <textarea id="message" name="message" class="contact-form-control" rows="6" maxlength="3000"
+                                    required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="contact-form-group">
+                            <button type="submit" id="con-button" class="con-btn">Send Message</button>
+                        </div>
+                    </form>
+
+                </div>
+            
 
     </section>
 
