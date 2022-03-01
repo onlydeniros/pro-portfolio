@@ -40,10 +40,12 @@ header nav li{
 header nav li a{
     text-decoration:underline rgba(42, 39, 39, 0.164);
     text-shadow: 3px 2px 5px black;
-    color: var(--secondary-color)   
+    color: var(--secondary-color);   
+
 }
-.yellow:hover{
-    color: yellow;
+
+header nav li a:hover{
+   color: rgb(42, 161, 151);
 }
 
 .jumbo{
