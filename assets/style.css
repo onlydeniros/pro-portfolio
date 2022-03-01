@@ -42,6 +42,9 @@ header nav li a{
     text-shadow: 3px 2px 5px black;
     color: var(--secondary-color)   
 }
+.yellow:hover{
+    color: yellow;
+}
 
 .jumbo{
     background-image: url(./images/navy\ teal\ moutains.jpg);
@@ -180,6 +183,24 @@ hr{
     margin: 50px;
     width: 90%;
 }
+
+
+span{
+    font-size: 20px;
+    
+}
+.zoom {
+    padding: 50px;
+    transition:transform .2s;
+    width: inherit;
+    height: inherit;
+    margin: 0 auto;
+  }
+  .zoom:hover {
+    transform: scale(1.1); 
+    opacity: 85%;
+  }
+
 .col{
     padding: 6px;
     flex: 1 0 0;
@@ -195,6 +216,9 @@ figcaption a{
     color: black;
     font-size: 20px;
 }
+
+
+
 footer {
     display: flex;
     justify-content: end;
@@ -207,3 +231,12 @@ footer {
     color: var(--secondary-color);
     text-shadow: 3px 2px 5px black;
 }
+
+/* @media screen and (max-width:1416) {
+    body{
+        display: flex;
+        justify-content:center;
+        background-color: aqua;
+    }
+    
+} */
