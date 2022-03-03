@@ -87,9 +87,8 @@ header nav li a:hover{
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 35px;
-    margin-bottom: 55px;
-    margin-left: 520px;
+    margin: 35px auto 55px auto;
+    padding: 20px;
 
 }
 .avatar-2 a{
@@ -97,7 +96,11 @@ text-decoration: none;
 color: black;
 }
 
-
+.imgcon{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
 
 
 .avatar img{
@@ -181,8 +184,10 @@ hr{
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    justify-content:space-between;
     padding-bottom: 50px;
-    margin: 50px;
+    margin:auto;
+    /* margin: 50px; */
     width: 90%;
 }
 
@@ -192,7 +197,7 @@ span{
     
 }
 .zoom {
-    padding: 50px;
+    padding: 20px;
     transition:transform .2s;
     width: inherit;
     height: inherit;
@@ -206,14 +211,13 @@ span{
 .col{
     padding: 6px;
     flex: 1 0 0;
-    margin-left: 40px;
-    padding-left: 40px;
+    padding-left: 20px;
 }
 
-figcaption{
+figure{
     text-align: center;
 }
-figcaption a{
+figure a{
     text-decoration: none;
     color: black;
     font-size: 20px;
@@ -234,11 +238,8 @@ footer {
     text-shadow: 3px 2px 5px black;
 }
 
-/* @media screen and (max-width:1416) {
-    body{
-        display: flex;
-        justify-content:center;
-        background-color: aqua;
-    }
-    
-} */
+@media screen and (max-width:900px) {
+   .gallery{
+       flex-direction: column;
+   }
+}
