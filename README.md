@@ -9,4 +9,4 @@ In this challenge, I am required to use advanced css and the core skills i learn
 [Deployed Site](https://onlydeniros.github.io/pro-portfolio/)
 
 ## Screenshot of the deployed site
-![ScreenShot](./assets/images/pro-portfolio.png)
+![ScreenShot](./assets/images/portolio-ss.png)
