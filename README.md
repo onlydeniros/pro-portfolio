@@ -1,12 +1,20 @@
-# Portfolio
+# Professional Portfolio
 
-## Advanced CSS Challenge: Professional Portfolio
-
-In this challenge, I am required to use advanced css and the core skills i learned thus far such as media queries, flexbox, css varibles and more to build a professional portfolio.
+In this project, I implemented advanced css and the basic core skills of HTML I learned thus far, with media queries, flexbox, css varibles and more to build a responsive professional portfolio.
 
 
-## Link to the deployed site
-[Deployed Site](https://onlydeniros.github.io/pro-portfolio/)
+## Deployed Site
+[Click Here](https://onlydeniros.github.io/pro-portfolio/)
 
 ## Screenshot of the deployed site
-![ScreenShot](./assets/images/portolio-ss.png)
+![ScreenShot](./assets/images/NewProfilePic.png)
+
+
+
+## Author
+Sole Author: DeNiro Dumas
+
+
+## Questions
+Please visit my **[GitHub profile](https://github.com/onlydeniros)** to check out this and other projects I've created and contributed to.
+If you have any specific questions about this project, please contact me at <dumasdj23@gmail.com>.
