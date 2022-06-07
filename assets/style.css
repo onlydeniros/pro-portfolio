@@ -48,6 +48,17 @@ header nav li a:hover{
    color: rgb(42, 161, 151);
 }
 
+
+span{
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+    50%{
+        opacity: 0;
+    }
+}
+
+
 .jumbo{
     background-image: url(./images/navy\ teal\ moutains.jpg);
     background-size: cover;
